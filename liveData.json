@@ -1,0 +1,43 @@
+{
+  "users": {
+    "user1_uid": {
+      "email": "user1@example.com",
+      "devices": {
+        "device1_id": {
+          "name": "Solar Inverter 1000",
+          "type": "Solar Inverter",
+          "connection": "WiFi",
+          "lastUpdated": 1620000000000
+        }
+      }
+    }
+  },
+  "inverterData": {
+    "device1_id": {
+      "timestamp1": {
+        "voltage": 220.5,
+        "current": 5.2,
+        "battery": 85,
+        "generatedPower": 1146.6,
+        "consumedPower": 920.4
+      },
+      "timestamp2": {
+        "voltage": 218.7,
+        "current": 5.1,
+        "battery": 83,
+        "generatedPower": 1115.4,
+        "consumedPower": 900.2
+      }
+    }
+  },
+  "alerts": {
+    "device1_id": {
+      "alert1_id": {
+        "message": "Battery level low",
+        "timestamp": 1620000000000,
+        "severity": "warning",
+        "read": false
+      }
+    }
+  }
+}
